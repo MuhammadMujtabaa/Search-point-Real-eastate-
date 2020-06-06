@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.social-media-links li a :hover  {
+    
+    background-color: white !important;
+    color: #2E8B57 !important;
+    border-radius: 10%;
+}
+
+nav .hover-me:hover{
+    background-color: rgba(43, 198, 184,0.9);
+    
+}
+nav .hover-me:hover .nav-link{
+    
+    color: white !important;
+}
+  
+.main{
+
+    /* background: url("https://images.pexels.com/photos/164522/pexels-photo-164522.jpeg?auto=compress&cs=tinysrgb&dpr=1350&w=800"); */
+    background: url("https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    
+    background-repeat: no-repeat;
+    background-size: 100%  100%;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    
+    
+}
+
+.hearderset {
+    padding-top: 430px;
+    box-sizing: border-box;
+}
+
+.hearderset h2{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: Arial;
+}
+
+.main-heading h3{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Arial;
+}
+
+@media screen and (max-width:1200px){
+    .main{
+        background-position: center;
+        width:100%;
+        height: 450px;
+    }
+    .hearderset {
+        padding-top: 380px;
+    }
+    .hearderset h2{
+    font-size: 38px;    
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    h5{
+        font-size: 19px;
+    }
+    p , li{
+        font-size: 15px;
+    }
+    
+}
+
+
+ @media screen and (max-width:1024px){
+    .main{
+        background-position: center;
+        width:100%;
+        height: 400px;
+    }
+    .hearderset {
+        padding-top: 330px;
+    }
+    .hearderset h2{
+        font-size: 36px;    
+        }
+        h2{
+            font-size: 28px;
+        }
+        h3 {
+            font-size: 26px;
+        }
+        h5{
+            font-size: 18px;
+        }
+        p , li{
+            font-size: 15px;
+        }
+} 
+@media screen and (max-width:900px){
+    .main{
+        background-position: center;
+        width:100%;
+        height: 350px;
+    }
+    .hearderset {
+        padding-top: 280px;
+    }
+    .hearderset h2{
+        font-size: 34px;    
+        }
+        h2{
+            font-size: 26px;
+        }
+        h3 {
+            font-size: 24px;
+        }
+        h5{
+            font-size: 17px;
+        }
+        p , li{
+            font-size: 14px;
+        }
+    
+    
+}
+
+ @media screen and (max-width:768px){
+    .main{
+        background-position: center;
+        width:100%;
+        height: 300px;
+    }
+    .hearderset {
+        padding-top: 230px;
+    
+    }
+    .hearderset h2{
+        font-size: 32px;    
+        }
+    
+        h2{
+            font-size: 24px;
+        }
+        h3 {
+            font-size: 22px;
+        }
+        h5{
+            font-size: 16px;
+        }
+        p , li{
+            font-size: 14px;
+        }
+
+} 
+@media screen and (max-width:600px){
+    .main{
+        background-position: center;
+        width:100%;
+        height: 250px;
+    }
+    .hearderset {
+        padding-top: 180px;
+        
+    }
+    .hearderset h2{
+        font-size: 30px;    
+        }    
+        h2{
+            font-size: 22px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        h5{
+            font-size: 15px;
+        }
+        p , li{
+            font-size: 13px;
+        }
+   
+}
+
+/* /////////////////// */
+@media screen and (max-width:480px){
+    .main{
+        background-position: center;
+        width:100%;
+        height: 200px;
+    }
+    .hearderset {
+        padding-top: 130px;
+        
+    }
+    
+    .hearderset h2{
+        font-size: 28px;
+        
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    p , li{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:320px){
+    .main{
+        background-position: center;
+        width:100%;
+        height: 150px;
+    }
+    .hearderset {
+        padding-top: 80px;
+        
+    }
+    
+    .hearderset h2{
+        font-size: 26px;
+        
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h5{
+        font-size: 13px;
+    }
+    p , li{
+        font-size: 12px;
+    }    
+   
+}
+
